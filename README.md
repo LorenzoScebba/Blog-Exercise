@@ -1,7 +1,7 @@
 Blog
 
 - Composer install
-- Import database
+- Import database OR run "php artisan migrate:refresh --seed" after creating the database
 - Copy .env.example and rename it as .env. Setup all #NEEDED parameters
 - run "php artisan key:generate" in project folder
 - Run using "php artisan serve" in project folder
